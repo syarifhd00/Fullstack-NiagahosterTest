@@ -1,0 +1,414 @@
+{% extends 'layout.html.twig' %}
+{% block body %}
+<!-- Hero Start -->
+        <section class="bg-half-header d-table w-100 border-bottom" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="title-heading mt-4">
+                            <h3 class="heading mb-3 Montserrat-Bold">
+                                <b>PHP Hosting</b>
+                            </h3>
+                            <p class="para-desc text-muted" style="margin-top: -20px">
+                                <h3 class="Montserrat-Hairline">Cepat, handal, penuh dengan modul PHP yang Anda butuhkan</h3>
+                                <ul class="list-unstyled text-muted Montserrat-Light">
+                                    <li class="mb-0"><span class="mr-2 label-green"><i class="mdi mdi-check" style="padding:1.5px;"></i></span> Solusi PHP untuk performa query yang lebih cepat</li>
+                                    <li class="mb-0"><span class="mr-2 label-green"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>Konsumsi memori yang rendah</li>
+                                    <li class="mb-0"><span class="mr-2 label-green"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7</li>
+                                    <li class="mb-0"><span class="mr-2 label-green"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>Fitur enkripsi IonCube dan Zend Guard Loaders</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 col-md-0 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <img src="assets/svg/illustration banner PHP hosting-01.svg" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Testi Start -->
+        <section class="section">
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                    <!-- <div class="col-lg-12"> -->
+                        <div class="col-lg-3 text-center py-4">
+                            <img src="assets/svg/zenguard.png" class="avatar" alt="" style="height: 170px;"><br><br>
+                            <span class="Roboto-Light">PHP Zend Guard Loader</span>
+                        </div><!--end col-->
+
+                        <div class="col-lg-3 text-center py-4">
+                            <img src="assets/svg/composer.png" class="avatar" alt="" style="height: 170px;"><br><br>
+                            <span class="Roboto-Light">PHP Composer</span>
+                        </div><!--end col-->
+                        
+                        <div class="col-lg-3 text-center py-4">
+                            <img src="assets/svg/ioncube.png" class="avatar" alt="" style="height: 170px;"><br><br>
+                            <span class="Roboto-Light">PHP Ioncube Loader</span>
+                        </div><!--end col-->
+                    <!-- </div> -->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title Montserrat-Bold">Paket Hosting Singapura yang Tepat</h4>
+                            <p class="text-muted para-desc mx-auto mb-0 Roboto-Medium"><h4>Diskon 40% + Domain dan SSL Gratis untuk Anda</h4></p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                
+                <div class="row mt-lg-0 align-items-center">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row ml-lg-5">
+                            {% for row in data %}
+                            <div class="col-md-3 col-12 mt-4 pt-2 pt-md-4 px-md-0">
+                                <div class="card pricing-rates  starter-plan text-center shadow rounded border-0 {% if top==row['id'] %}active{% endif %}">
+                                    <div class="card-body">
+                                        <!-- <h2 class="title Montserrat-Bold border-bottom">Bayi</h2> -->
+                                        <h2 class="title Montserrat-Bold border-bottom">{{row['nama']}}</h2>
+                                        <div class="ribbonwrapinner" style="{% if top!=row['id'] %}display: none{% endif %}">
+                                            <div class="ribbontext Montserrat-Hairline h6 small">BEST SELLER!</div>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <span class="h6 mt-2 Montserrat-Hairline" style="text-decoration: line-through;"><small>Rp {{ row['harga']|number_format(0) }}</small></span>
+                                        </div>
+
+                                        {%set disc = row['harga']-row['diskon']%}
+                                        {%set length = disc|length%}
+                                        {%set bot = length-3%}
+                                        
+
+                                        
+                                        <div class="d-flex justify-content-center border-bottom">
+                                            <span class="h5 mb-0 mt-2 Montserrat-Light"><small>Rp &nbsp</small></span>
+                                            <span class="price h1 mb-0 Montserrat-Bold">{{ disc[0:bot]|number_format(0) }}</span>
+                                            <span class="h6 align-self-center Montserrat-Hairline"><span class="Montserrat-Bold"></span>.{{disc[bot:length]}}/ bln</span>
+                                        </div>
+                                        <div class="d-flex justify-content-center border-bottom users">
+                                            <span class="mb-2 mt-2 Montserrat-Light"><span class="Montserrat-Regular"><small>{{ row['pengguna']|number_format(0) }}</small></span> <small>Pengguna Terdaftar</small></span>
+                                        </div>
+                                        <div class="desc">
+                                        &nbsp
+                                        <ul class="list-unstyled mb-3 pl-0 mt-2">
+                                            {% for row1 in row['desc'] %}
+                                            <li class="mb-0 Montserrat-Light"><span class="Montserrat-Regular"><small>{{row1['judul']}}</small></span> <small>{{row1['desc']}}</small></li>
+                                            {% endfor %}
+                                        </ul>
+                                        
+                                        
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-md btn-outline-dark mb-3 mt-2 mr-2 Montserrat-Bold {% if top==row['id'] %}btn-primary{% else %}btn-outline-dark{% endif %}">Pilih Sekarang</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Testi End -->
+
+        <!-- FAQ n Contact Start -->
+        <section class="section">
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <h4 class="para-desc mx-auto mb-0 Montserrat-Hairline">Powerful dengan Limit PHP yang Lebih Besar</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-4 mt-4 pt-2" id="tables">
+                        <div class="table-responsive table-bordered table-hover table-striped bg-white">
+                            <table class="table table-sm mb-0 table-center Montserrat-Light">
+                                <tbody>
+                                    <tr>
+                                        <td><center><span class="mr-2 label-green powerfull"><i class="mdi mdi-check" style="padding:1.5px;"></i></span><span>max execute time 300s</span></center></td>
+                                    </tr>
+                                    <tr>
+                                        <td><center><span class="mr-2 label-green powerfull"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>max execute time 300s</center></td>
+                                    </tr>
+                                    <tr>
+                                        <td><center><span class="mr-2 label-green powerfull"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>php memory limit 1024 MB</center></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 pt-2" id="tables">
+                        <div class="table-responsive table-bordered table-hover table-striped bg-white">
+                            <table class="table table-sm mb-0 table-center Montserrat-Light center">
+                                <tbody>
+                                    <tr>
+                                        <td><center><span class="mr-2 label-green powerfull"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>post max size 128 MB</center></td>
+                                    </tr>
+                                    <tr>
+                                        <td><center><span class="mr-2 label-green powerfull"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>upload max filesize 128 MB</center></td>
+                                    </tr>
+                                    <tr>
+                                        <td><center><span class="mr-2 label-green powerfull"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>max input vars 2500</center></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><!--end row-->
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <h4 class="para-desc mx-auto mb-0 Montserrat-Hairline">Semua Paket Hosting Sudah Termasuk</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                    <!-- <div class="col-lg-12"> -->
+                        <div class="col-md-4 text-center py-4">
+                            <img src="assets/svg/icon PHP Hosting_PHP Semua Versi.svg" class="avatar" alt="" style="height: 70px;"><br><br>
+                            <span class="h6 Montserrat-Bold">PHP Semua Versi</span><br>
+                            <span class="Montserrat-Light">Pilih mulai dari versi PHP 5.3 s/d PHP 7.</span><br>
+                            <span class="Montserrat-Light">Ubah sesuka Anda!</span>
+                        </div><!--end col-->
+
+                        <div class="col-md-4 text-center py-4">
+                            <img src="assets/svg/icon PHP Hosting_My SQL.svg" class="avatar" alt="" style="height: 70px;"><br><br>
+                            <span class="h6 Montserrat-Bold">MySQL Versi 5.6</span><br>
+                            <span class="Montserrat-Light">Nikmati MySQL versi terbaru, tercepat dan</span><br>
+                            <span class="Montserrat-Light">kaya akan fitur</span>
+                        </div><!--end col-->
+                        
+                        <div class="col-md-4 text-center py-4">
+                            <img src="assets/svg/icon PHP Hosting_CPanel.svg" class="avatar" alt="" style="height: 70px;"><br><br>
+                            <span class="h6 Montserrat-Bold">Panel Hosting CPanel</span><br>
+                            <span class="Montserrat-Light">Kelola website dengan panel canggih yang</span><br>
+                            <span class="Montserrat-Light">familiar di hati Anda.</span>
+                        </div><!--end col-->
+                    <!-- </div> -->
+                </div><!--end row-->
+                <div class="row justify-content-center">
+                    <!-- <div class="col-lg-12"> -->
+                        <div class="col-md-4 text-center py-4">
+                            <img src="assets/svg/icon PHP Hosting_garansi uptime.svg" class="avatar" alt="" style="height: 70px;"><br><br>
+                            <span class="h6 Montserrat-Bold">Garansi Uptime 99.9%</span><br>
+                            <span class="Montserrat-Light">Data center yang mendukung kelangsungan</span><br>
+                            <span class="Montserrat-Light">website Anda 24/7</span>
+                        </div><!--end col-->
+
+                        <div class="col-md-4 text-center py-4">
+                            <img src="assets/svg/icon PHP Hosting_InnoDB.svg" class="avatar" alt="" style="height: 70px;"><br><br>
+                            <span class="h6 Montserrat-Bold">Database InnoDB Unlimited</span><br>
+                            <span class="Montserrat-Light">Jumlah dan ukuran database yang tumbuh</span><br>
+                            <span class="Montserrat-Light">sesuai kebutuhan anda</span>
+                        </div><!--end col-->
+                        
+                        <div class="col-md-4 text-center py-4">
+                            <img src="assets/svg/icon PHP Hosting_My SQL remote.svg" class="avatar" alt="" style="height: 70px;"><br><br>
+                            <span class="h6 Montserrat-Bold">Wildcard Remote MySQL</span><br>
+                            <span class="Montserrat-Light">Mendukung s/d 25 max_user_connections</span><br>
+                            <span class="Montserrat-Light">dan 100 max_connections</span>
+                        </div><!--end col-->
+                    <!-- </div> -->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <h4 class="para-desc mx-auto mb-0 Montserrat-Hairline">Mendukung Penuh Framework Laravel</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container mb-5 border-bottom">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="title-heading mt-4">
+                            <p class="para-desc text-muted" style="margin-top: -20px">
+                                <h6 class="Montserrat-Hairline">Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami Mendukung penuh framework favorit anda</h6>
+                                <ul class="list-unstyled text-muted Montserrat-Light small">
+                                    <li class="mb-0"><span class="mr-2 label-green"><i class="mdi mdi-check" style="padding:1.5px;"></i></span></span>Install Laravel <b class="Montserrat-Regular">1 klik</b> dengan Softculous Installer.</li>
+                                    <li class="mb-0"><span class="mr-2 label-green"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>Mendukung ekstensi <b class="Montserrat-Regular">PHP MCrypt, phar, mbstring, json,</b> dan <b class="Montserrat-Regular">fileinfo</b></li>
+                                    <li class="mb-0"><span class="mr-2 label-green"><i class="mdi mdi-check" style="padding:1.5px;"></i></span>Mendukung <b class="Montserrat-Regular">Composer</b> dan <b class="Montserrat-Regular">SSH</b> untuk menginstal packages pilihan Anda.</li>
+                                </ul>
+                                <span class="small text-muted Montserrat-Light" style="font-size: 10px">
+                                    Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis
+                                </span><br>
+                                <a href="javascript:void(0)" class="btn btn-pills btn-md btn-primary mb-3 mt-2 mr-2 Montserrat-Bold">Pilih Hosting Anda</a>
+                            </p>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 col-md-0 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <img src="assets/svg/illustration banner support laravel hosting.svg" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <h4 class="mx-auto mb-0 Montserrat-Hairline">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda.</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-1 mt-4 pt-2"></div>
+                    <div class="col-md-3 mt-4 pt-2 modul">
+                        <ul class="list-unstyled Montserrat-Light text-muted small h6">
+                            <li class="mb-0">IcePHP</li>
+                            <li class="mb-0">apc</li>
+                            <li class="mb-0">apcu</li>
+                            <li class="mb-0">apm</li>
+                            <li class="mb-0">ares</li>
+                            <li class="mb-0">bcmath</li>
+                            <li class="mb-0">bcompiler</li>
+                            <li class="mb-0">big_int</li>
+                            <li class="mb-0">bitset</li>
+                            <li class="mb-0">bloomy</li>
+                            <li class="mb-0">bz2_filter</li>
+                            <li class="mb-0">clamav</li>
+                            <li class="mb-0">coin_acceptor</li>
+                            <li class="mb-0">crack</li>
+                            <li class="mb-0">dba</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mt-4 pt-2 modul">
+                        <ul class="list-unstyled Montserrat-Light text-muted small h6">
+                            <li class="mb-0">http</li>
+                            <li class="mb-0">huffman</li>
+                            <li class="mb-0">idn</li>
+                            <li class="mb-0">igbinary</li>
+                            <li class="mb-0">imagick</li>
+                            <li class="mb-0">imap</li>
+                            <li class="mb-0">included</li>
+                            <li class="mb-0">inotify</li>
+                            <li class="mb-0">interbase</li>
+                            <li class="mb-0">intl</li>
+                            <li class="mb-0">ioncube_loader</li>
+                            <li class="mb-0">ioncube_loader_4</li>
+                            <li class="mb-0">jmin</li>
+                            <li class="mb-0">json</li>
+                            <li class="mb-0">Idap</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mt-4 pt-2 modul">
+                        <ul class="list-unstyled Montserrat-Light text-muted small h6">
+                            <li class="mb-0">nd_pdo_mysql</li>
+                            <li class="mb-0">oauth</li>
+                            <li class="mb-0">oci8</li>
+                            <li class="mb-0">odbc</li>
+                            <li class="mb-0">opcache</li>
+                            <li class="mb-0">pdf</li>
+                            <li class="mb-0">pdo</li>
+                            <li class="mb-0">pdo_dblib</li>
+                            <li class="mb-0">pdo_firebird</li>
+                            <li class="mb-0">pdo_mysql</li>
+                            <li class="mb-0">pdo_odbc</li>
+                            <li class="mb-0">pdo_pgsql</li>
+                            <li class="mb-0">pdo_sqlite</li>
+                            <li class="mb-0">pgsql</li>
+                            <li class="mb-0">phalcon</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 mt-4 pt-2 modul">
+                        <ul class="list-unstyled Montserrat-Light text-muted small h6">
+                            <li class="mb-0">stats</li>
+                            <li class="mb-0">stem</li>
+                            <li class="mb-0">stomp</li>
+                            <li class="mb-0">suhosin</li>
+                            <li class="mb-0">sybase_ct</li>
+                            <li class="mb-0">sysvmsg</li>
+                            <li class="mb-0">sysvsem</li>
+                            <li class="mb-0">sysvhm</li>
+                            <li class="mb-0">tidy</li>
+                            <li class="mb-0">timezonedb</li>
+                            <li class="mb-0">trader</li>
+                            <li class="mb-0">translit</li>
+                            <li class="mb-0">uploadprogress</li>
+                            <li class="mb-0">uri_template</li>
+                            <li class="mb-0">uuid</li>
+                        </ul>
+                    </div>
+                </div><!--end row-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <a href="javascript:void(0)" class="btn btn-pills btn-md btn-outline-dark mb-3 mt-2 mr-2 Montserrat-Bold">Selengkapnya</a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 col-md-7">
+                        <div class="mt-4">
+                            <p class="para-desc text-muted" style="margin-top: -20px">
+                                <h3 class="Montserrat-Hairline">Linux Hosting yang Stabil dengan Teknologi LIVE</h3>
+                                <span class="list-unstyled text-muted Montserrat-Light small">
+                                    SuperMicro <b class="Montserrat-Regular">Intel Xeon 24-Cores</b> server dengan RAM <b class="Montserrat-Regular">128 GB</b> dan teknologi <b class="Montserrat-Regular">LIVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi dengan <b class="Montserrat-Regular">SSD</b> untuk kecepatan <b class="Montserrat-Regular">MySQL</b> dan caching. Apache load balancer berbasis LiteSpeed Technologies, <b class="Montserrat-Regular">CageFS</b> security, <b class="Montserrat-Regular">Raid-10</b> protection dan auto backup untuk keamanan website PHP Anda.
+                                </span><br>
+                                <a href="javascript:void(0)" class="btn btn-pills btn-md btn-primary mb-3 mt-5 mr-2 Montserrat-Bold">Pilih Hosting Anda</a>
+                            </p>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-5 col-md-0 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <img src="assets/svg/Image support.png" class="support">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <section class="section bg-light" style="padding:20px">
+            <div class="container mb-0">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 text-center">
+                        <div class="section-title mb-1 pb-2" style="padding-top: 10px">
+                            <span class="mx-auto mb-0 Montserrat-Regular">Bagikan jika Anda menyukai halaman ini.</span>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-md-7 text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <a href="#" class="btn btn-icon btn-primary-strong" style="color: #fff;font-size: 20px"><i data-feather="facebook" class="fea icon-sm-md"></i></a><span class="ishared">80K</span>
+                            <a href="#" class="btn btn-icon btn-primary" style="font-size: 20px"><i class="mdi mdi-twitter"></i></a><span class="ishared">450</span>
+                            <a href="#" class="btn btn-icon btn-orange" style="color: #fff;font-size: 20px"><i class="mdi mdi-google-plus"></i></a><span class="ishared">1900</span>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                
+            </div>
+        </section>
+        <section class="section bg-blue" style="padding:50px">
+            <div class="container mb-0">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <div class="section-title mb-1 pb-2" style="padding-top: 10px">
+                            <span class="mx-auto mb-0 h3 Montserrat-Hairline" style="color: #fff">Perlu <span class="Montserrat-Regular">BANTUAN?</span> Hubungi Kami : <span class="Montserrat-Regular">0274-5405505</span></span>
+                        </div>
+                    </div><!--end col-->
+                    <div class="text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <span class="mx-auto mb-0 h1 Montserrat-Hairline constraint" style="color: #fff"> | </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="section-title mb-1 pb-2">
+                            <a href="javascript:void(0)" class="btn btn-pills btn-md btn-outline-light mb-3 mt-2 mr-2 Montserrat-Bold" style="color:"><i class="mdi mdi-message"> </i> Live Chat</a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                
+            </div>
+        </section>
+        
+{% endblock %}

@@ -1,0 +1,13 @@
+1. Kendala pertama saya, saya baru pertama kali menggunakan BoxBilling. referensinya pun terbilang cukup sulit. namun saya explore & mencari referensi dari Artikel maupun Youtube terkait penggunaan Boxbilling
+2. Sebelum ke tahap instalasi, saya mempelajari dahulu apa itu Boxbilling dan tata cara penggunaan
+3. Kemudian Saya mengunduh aplikasi Boxbilling berdasarkan link yang terlampir di soal, namun terdapat kendala ketika instalasi. setelah saya browsing ternyata banyak orang yang mengalami hal yang sama. akhirnya saya mengunduh aplikasi versi sebelumnya
+4. Saya melakukan konfigurasi pada UI aplikasi dan membuat table otomatis, diikuti dengan membaca/menonton tutorial Boxbiling
+5. Saya melakukan konfigurasi pada file bb-config.php dan menyesuaikan dengan bb-config.sample.php
+6. Setelah itu saya melakukan explore untuk memahami struktur coding dari Boxbilling
+7. Setelah login di aplikasi saya mencoba untuk menambahkan user dan produk sebagai bahan testing development
+8. saya mendaftarkan akun sebagai Merchant di Paylane.com dan memahami bahan konfigurasi untuk kebutuhan integrasi PaymentMethod
+9. saya sebelumnya pernah menggunakan DokuPayment untuk Payment Gateway, hal tersebut membuat saya tidak terlalu berkendala ketika mengintegrasikan Boxbilling dengan Paypal
+10. saya membuat file Payment adapter untuk Paylane dan menambahkan icon/logo metode pembayaran untuk kebutuhan bertransaksi
+11. setelah itu saya menyambungkan Boxbilling dengan Paylane API melalui field yang dibutuhkan, disini saya mengalami kendala pada saat membuat form redirect menuju Halaman Paylane, namun setelah browsing dan menyunting beberapa file akhirnya masalah terpecahkan
+12. saya melakukan Testing dengan menggunakan akun user untuk memulai Transaksi, untuk memastikan apakah transaksi bisa berjalan dengan lancar.
+13. saya menggunakan Test Card number dari Paylane untuk melakukan pembayaran. saya melakukan testing diiringi dengan fixing secara langsung dan mengulangi tahapan tersebut hingga transaksi selesai

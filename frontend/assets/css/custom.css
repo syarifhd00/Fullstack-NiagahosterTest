@@ -1,0 +1,86 @@
+.ribbonwrapinner {width: 150px; height: 98px; overflow: hidden; position: absolute; top: -8px; left: -8px;}
+.ribbontext { color: #FFF;height: 40px; text-align: center; -webkit-transform: rotate(320deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); position: relative; padding: 10px 0; left: -30px; top: 15px; width: 153px; -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); box-shadow: 2px 2px 3px rgba(0,0,0,0.3); background: #038403; 
+}
+.ribbontext:before, .ribbontext:after {content: ""; border-top: 5px solid #024e02; border-left: 5px solid transparent; border-right: 5px solid transparent; position:absolute; bottom: -5px}
+.ribbontext:before {left: 0;}
+.ribbontext:after {right: 0;}
+.active {
+    z-index: 999;
+    background-color: #2891ef;
+    color:#fff;
+}
+.active .border-bottom{
+    border-bottom: 1px solid #2891ef!important;
+}
+.active .users {
+    background-color: #0c7ce0;
+}
+.active .desc {
+    background-color: #fff;
+    color: #161c2d;
+}
+
+.powerfull,.powerfull{
+    line-height: 1.2em;
+    float: left;
+    /*position: absolute;*/
+    height: 17px;
+}
+.table-bordered{
+    border: 0px solid #dee2e6;
+}
+.ribbontext1{
+    z-index:-1;
+    border:14px solid #119eda;
+    position: absolute;
+    height: 38px;
+    border-bottom-color: transparent;
+}
+.search{
+    background: #fff;
+    border: 1px solid grey;
+    display: inline-block;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.search .input{
+    background-color: transparent;
+    border: none;
+    width: 55%;
+    margin-left: 15px !important;
+    height: 50px;
+    outline: 0px solid transparent;
+}
+
+.search .berlangganan{
+    padding: 7px 5px;border-color:#26a7dd !important;background-color:#26a7dd !important;color:#fff;margin-right: 5px;margin-top: 5px;margin-bottom: 5px;height: 40px;margin-left: auto;float: right;
+}
+@media only screen and (max-width: 767px){
+    .modul{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .support{
+        width: 380px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .constraint{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .device{
+        display: none;
+    }
+    .card-body{
+        box-shadow: 2px 2px 5px 1px grey;
+    }
+}
+@media only screen and (max-width: 767px){
+    .col-lg-4{
+        width: 33.33%
+    }
+}

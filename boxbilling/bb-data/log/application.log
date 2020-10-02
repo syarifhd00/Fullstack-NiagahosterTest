@@ -1,0 +1,159 @@
+2020-09-25 10:38:42 INFO (6): Added new  email template #1
+2020-09-25 10:38:42 INFO (6): Added new  email template #2
+2020-09-25 10:38:42 INFO (6): Added new  email template #3
+2020-09-25 10:38:42 INFO (6): Added new  email template #4
+2020-09-25 10:38:42 INFO (6): Added new  email template #5
+2020-09-25 10:38:42 INFO (6): Added new  email template #6
+2020-09-25 10:38:42 INFO (6): Added new  email template #7
+2020-09-25 10:38:42 INFO (6): Added new  email template #8
+2020-09-25 10:38:42 INFO (6): Added new  email template #9
+2020-09-25 10:38:42 INFO (6): Added new  email template #10
+2020-09-25 10:38:42 INFO (6): Added new  email template #11
+2020-09-25 10:38:42 INFO (6): Added new  email template #12
+2020-09-25 10:38:42 INFO (6): Added new  email template #13
+2020-09-25 10:38:42 INFO (6): Added new  email template #14
+2020-09-25 10:38:42 INFO (6): Added new  email template #15
+2020-09-25 10:38:42 INFO (6): Added new  email template #16
+2020-09-25 10:38:42 INFO (6): Added new  email template #17
+2020-09-25 10:38:42 INFO (6): Added new  email template #18
+2020-09-25 10:38:42 INFO (6): Added new  email template #19
+2020-09-25 10:38:42 INFO (6): Added new  email template #20
+2020-09-25 10:38:42 INFO (6): Added new  email template #21
+2020-09-25 10:38:42 INFO (6): Added new  email template #22
+2020-09-25 10:38:42 INFO (6): Added new  email template #23
+2020-09-25 10:38:42 INFO (6): Added new  email template #24
+2020-09-25 10:38:42 INFO (6): Added new  email template #25
+2020-09-25 10:38:42 INFO (6): Added new  email template #26
+2020-09-25 10:38:42 INFO (6): Added new  email template #27
+2020-09-25 10:38:42 INFO (6): Added new  email template #28
+2020-09-25 10:38:42 INFO (6): Added new  email template #29
+2020-09-25 10:38:42 INFO (6): Added new  email template #30
+2020-09-25 10:38:42 INFO (6): Added new  email template #31
+2020-09-25 10:38:43 INFO (6): Added new  email template #32
+2020-09-25 10:38:43 INFO (6): Added new  email template #33
+2020-09-25 10:38:43 INFO (6): Added new  email template #34
+2020-09-25 10:38:43 INFO (6): Added new  email template #35
+2020-09-25 10:38:43 INFO (6): Added new  email template #36
+2020-09-25 10:38:43 INFO (6): Added new  email template #37
+2020-09-25 10:38:43 INFO (6): Added new  email template #38
+2020-09-25 10:38:43 INFO (6): Added new  email template #39
+2020-09-25 10:38:43 INFO (6): Added new  email template #40
+2020-09-25 10:38:43 INFO (6): Added new  email template #41
+2020-09-25 10:38:43 INFO (6): Added new  email template #42
+2020-09-25 10:38:43 INFO (6): Added new  email template #43
+2020-09-25 10:38:43 INFO (6): Added new  email template #44
+2020-09-25 10:38:43 INFO (6): Added new  email template #45
+2020-09-25 10:38:43 INFO (6): Added new  email template #46
+2020-09-25 10:38:43 INFO (6): Added new  email template #47
+2020-09-25 10:38:43 INFO (6): Generated email templates for installed extensions
+2020-09-25 11:03:32 INFO (6): Staff member 1 logged in
+2020-09-25 11:04:31 INFO (6): Updated payment gateway PayPalEmail
+2020-09-25 11:14:16 INFO (6): Created new client group #2
+2020-09-25 11:16:17 INFO (6): Created new client #1
+2020-09-25 11:18:00 INFO (6): Prepared new invoice "1"
+2020-09-25 11:18:59 INFO (6): Removed invoice #1
+2020-09-25 11:33:51 INFO (6): Admin logged out
+2020-09-25 11:34:17 INFO (6): Client #1 logged in
+2020-09-25 11:35:09 INFO (6): Added "Domains registration and transfer" to shopping cart
+2020-09-25 11:35:18 INFO (6): Prepared new invoice "2"
+2020-09-25 11:35:18 INFO (6): Approved invoice "2"
+2020-09-25 11:35:18 INFO (6): Checked out shopping cart
+2020-09-25 11:44:32 INFO (6): Logged out
+2020-09-25 11:44:51 INFO (6): Staff member 1 logged in
+2020-09-26 09:03:34 INFO (6): Client #1 logged in
+2020-09-26 09:04:51 INFO (6): Staff member 1 logged in
+2020-09-26 09:09:53 INFO (6): Installed new payment gateway Paylane
+2020-09-26 09:15:39 INFO (6): Updated payment gateway Paylane
+2020-09-26 09:15:59 INFO (6): Approved invoice "2"
+2020-09-26 09:15:59 INFO (6): Generated new renewal invoice #2
+2020-09-26 09:17:48 INFO (6): Approved invoice "2"
+2020-09-26 09:17:48 INFO (6): Generated new renewal invoice #2
+2020-09-26 09:23:31 INFO (6): Updated payment gateway Paylane
+2020-09-26 09:23:42 INFO (6): Approved invoice "2"
+2020-09-26 09:23:42 INFO (6): Generated new renewal invoice #2
+2020-09-26 09:31:13 INFO (6): Updated payment gateway Paylane
+2020-09-26 09:31:22 INFO (6): Approved invoice "2"
+2020-09-26 09:31:22 INFO (6): Generated new renewal invoice #2
+2020-09-26 09:31:50 INFO (6): Updated payment gateway Paylane
+2020-09-26 09:32:03 INFO (6): Approved invoice "2"
+2020-09-26 09:32:03 INFO (6): Generated new renewal invoice #2
+2020-09-26 10:33:09 INFO (6): Received transaction 1 from payment gateway 4
+2020-09-26 10:40:02 INFO (6): Client #1 logged in
+2020-09-26 10:50:05 INFO (6): Received transaction 2 from payment gateway 4
+2020-09-26 10:50:05 INFO (6): Marked invoice "2" as paid
+2020-09-26 10:51:10 INFO (6): Client #1 logged in
+2020-09-26 10:52:47 INFO (6): Received transaction 3 from payment gateway 2
+2020-09-26 11:54:58 INFO (6): Added "Domains registration and transfer" to shopping cart
+2020-09-26 11:55:04 INFO (6): Prepared new invoice "3"
+2020-09-26 11:55:04 INFO (6): Approved invoice "3"
+2020-09-26 11:55:04 INFO (6): Checked out shopping cart
+2020-09-26 11:57:01 INFO (6): Received transaction 4 from payment gateway 4
+2020-09-26 11:57:37 INFO (6): Received transaction 5 from payment gateway 4
+2020-09-26 12:16:32 INFO (6): Received transaction 6 from payment gateway 4
+2020-09-26 12:16:34 INFO (6): Received transaction 7 from payment gateway 4
+2020-09-26 12:22:24 INFO (6): Client #1 logged in
+2020-09-26 12:23:09 INFO (6): Added "Domains registration and transfer" to shopping cart
+2020-09-26 12:23:52 INFO (6): Approved invoice "4"
+2020-09-26 12:23:52 INFO (6): Generated new renewal invoice #4
+2020-09-26 12:25:19 INFO (6): Approved invoice "3"
+2020-09-26 12:25:19 INFO (6): Generated new renewal invoice #3
+2020-09-26 12:27:31 INFO (6): Added "Domains registration and transfer" to shopping cart
+2020-09-26 13:46:45 INFO (6): Removed product from shopping cart
+2020-09-26 13:46:52 INFO (6): Prepared new invoice "5"
+2020-09-26 13:46:52 INFO (6): Approved invoice "5"
+2020-09-26 13:46:52 INFO (6): Checked out shopping cart
+2020-09-26 13:47:45 INFO (6): Received transaction 8 from payment gateway 4
+2020-09-26 13:49:40 INFO (6): Received transaction 9 from payment gateway 
+2020-09-26 13:49:47 INFO (6): Received transaction 10 from payment gateway 
+2020-09-26 13:50:01 INFO (6): Client #1 logged in
+2020-09-26 13:50:28 INFO (6): Added "Domains registration and transfer" to shopping cart
+2020-09-26 13:50:38 INFO (6): Prepared new invoice "6"
+2020-09-26 13:50:38 INFO (6): Approved invoice "6"
+2020-09-26 13:50:38 INFO (6): Checked out shopping cart
+2020-09-26 13:51:55 INFO (6): Approved invoice "6"
+2020-09-26 13:51:55 INFO (6): Generated new renewal invoice #6
+2020-09-26 13:52:57 INFO (6): Approved invoice "6"
+2020-09-26 13:52:57 INFO (6): Generated new renewal invoice #6
+2020-09-26 13:53:48 INFO (6): Approved invoice "6"
+2020-09-26 13:53:48 INFO (6): Generated new renewal invoice #6
+2020-10-01 19:45:18 INFO (6): Staff member 1 logged in
+2020-10-01 19:47:07 INFO (6): Client #1 logged in
+2020-10-01 19:51:35 INFO (6): Received transaction 11 from payment gateway 4
+2020-10-01 19:52:04 INFO (6): Received transaction 12 from payment gateway 
+2020-10-01 19:52:23 INFO (6): Client #1 logged in
+2020-10-01 19:59:11 INFO (6): Received transaction 13 from payment gateway 4
+2020-10-01 20:01:36 INFO (6): Client #1 logged in
+2020-10-01 20:22:10 INFO (6): Received transaction 14 from payment gateway 4
+2020-10-01 20:22:17 INFO (6): Client #1 logged in
+2020-10-01 20:23:00 INFO (6): Received transaction 15 from payment gateway 4
+2020-10-01 20:32:24 INFO (6): Updated payment gateway Paylane
+2020-10-01 20:32:49 INFO (6): Received transaction 16 from payment gateway 4
+2020-10-01 20:33:51 INFO (6): Received transaction 17 from payment gateway 4
+2020-10-01 20:34:05 INFO (6): Updated payment gateway Paylane
+2020-10-01 20:34:29 INFO (6): Updated payment gateway Paylane
+2020-10-01 20:37:02 INFO (6): Received transaction 18 from payment gateway 
+2020-10-01 20:37:55 INFO (6): Client #1 logged in
+2020-10-01 20:40:17 INFO (6): Received transaction 19 from payment gateway 4
+2020-10-01 20:40:47 INFO (6): Received transaction 20 from payment gateway 4
+2020-10-01 20:41:34 INFO (6): Received transaction 21 from payment gateway 4
+2020-10-01 20:41:44 INFO (6): Received transaction 22 from payment gateway 4
+2020-10-01 20:42:09 INFO (6): Received transaction 23 from payment gateway 4
+2020-10-01 20:43:22 INFO (6): Removed payment gateway 1
+2020-10-01 20:43:24 INFO (6): Removed payment gateway 3
+2020-10-01 20:45:25 INFO (6): Client #1 logged in
+2020-10-01 20:46:52 INFO (6): Received transaction 24 from payment gateway 4
+2020-10-01 20:48:28 INFO (6): Client #1 logged in
+2020-10-01 20:49:29 INFO (6): Received transaction 25 from payment gateway 4
+2020-10-01 20:49:45 INFO (6): Client #1 logged in
+2020-10-01 20:50:43 INFO (6): Received transaction 26 from payment gateway 4
+2020-10-01 20:50:49 INFO (6): Received transaction 27 from payment gateway 4
+2020-10-01 20:51:47 INFO (6): Received transaction 28 from payment gateway 4
+2020-10-01 20:51:56 INFO (6): Received transaction 29 from payment gateway 4
+2020-10-01 20:53:47 INFO (6): Updated client #1 profile
+2020-10-01 20:54:02 INFO (6): Changed client #1 password
+2020-10-01 20:54:40 INFO (6): Changed staff member 1 password
+2020-10-01 20:54:51 INFO (6): Updated staff member 1 details
+2020-10-01 20:55:13 INFO (6): Changed client #1 password
+2020-10-01 20:55:21 INFO (6): Client #1 logged in
+2020-10-01 20:55:28 INFO (6): Admin logged out
+2020-10-01 20:55:35 INFO (6): Staff member 1 logged in

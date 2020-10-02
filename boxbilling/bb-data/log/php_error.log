@@ -1,0 +1,127 @@
+[25-Sep-2020 11:03:32 UTC] 
+[25-Sep-2020 11:13:10 UTC] Client not found
+[25-Sep-2020 11:17:32 UTC] This feature is available in BoxBilling PRO version. 876
+[25-Sep-2020 11:33:58 UTC] Unable to find template "mod_page_bb-client.phtml" (looked into: C:\xampp\htdocs\boxbilling/bb-themes\huraga\html, C:\xampp\htdocs\boxbilling/bb-modules\Page\html_client).
+[25-Sep-2020 11:33:58 UTC] Page bb-client not found
+[25-Sep-2020 11:39:03 UTC] Order #1 has no active service
+[26-Sep-2020 09:03:12 UTC] 
+[26-Sep-2020 09:03:14 UTC] Please check your login details 403
+[26-Sep-2020 09:04:03 UTC] Order #1 has no active service
+[26-Sep-2020 09:09:36 UTC] Order #1 has no active service
+[26-Sep-2020 09:15:47 UTC] Order #1 has no active service
+[26-Sep-2020 09:16:39 UTC] Order #1 has no active service
+[26-Sep-2020 09:23:36 UTC] Order #1 has no active service
+[26-Sep-2020 09:23:38 UTC] Order #1 has no active service
+[26-Sep-2020 09:24:05 UTC] Order #1 has no active service
+[26-Sep-2020 09:31:59 UTC] Order #1 has no active service
+[26-Sep-2020 09:55:49 UTC] 2 var_dump() expects at least 1 parameter, 0 given C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 101
+[26-Sep-2020 09:56:10 UTC] 2 var_dump() expects at least 1 parameter, 0 given C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 101
+[26-Sep-2020 10:01:39 UTC] 8 Array to string conversion C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 101
+[26-Sep-2020 10:22:43 UTC] 8 Array to string conversion C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 101
+[26-Sep-2020 10:23:18 UTC] 8 Array to string conversion C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 101
+[26-Sep-2020 10:33:09 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 129
+[26-Sep-2020 10:40:02 UTC] 
+[26-Sep-2020 10:50:05 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 129
+[26-Sep-2020 11:22:35 UTC] Page /invoice/hash not found
+[26-Sep-2020 11:23:26 UTC] Invoice was not found
+[26-Sep-2020 11:42:41 UTC] 
+[26-Sep-2020 11:54:24 UTC] Domain dev.dewilautaquaculture is not valid 0
+[26-Sep-2020 11:57:01 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 129
+[26-Sep-2020 11:57:37 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 129
+[26-Sep-2020 12:16:32 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 129
+[26-Sep-2020 12:16:34 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 129
+[26-Sep-2020 12:22:04 UTC] Client is not logged in
+[26-Sep-2020 12:22:09 UTC] Client is not logged in
+[26-Sep-2020 12:22:09 UTC] Client is not logged in
+[26-Sep-2020 12:22:59 UTC] Years parameter is missing for domain configuration. 0
+[26-Sep-2020 12:23:47 UTC] Order #1 has no active service
+[26-Sep-2020 12:25:04 UTC] Order #1 has no active service
+[26-Sep-2020 12:25:14 UTC] Order #2 has no active service
+[26-Sep-2020 12:25:23 UTC] Order #2 has no active service
+[26-Sep-2020 13:33:57 UTC] 
+[26-Sep-2020 13:47:45 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[26-Sep-2020 13:51:49 UTC] Order #4 has no active service
+[26-Sep-2020 13:52:29 UTC] 8 Undefined index: recurrent C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Custom.php 71
+[26-Sep-2020 13:52:49 UTC] Order #4 has no active service
+[26-Sep-2020 13:53:24 UTC] Order #4 has no active service
+[01-Oct-2020 19:45:17 UTC] 
+[01-Oct-2020 19:51:35 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 19:58:13 UTC] 8 Undefined index: recurrent C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Custom.php 71
+[01-Oct-2020 19:58:22 UTC] 8 Undefined index: recurrent C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Custom.php 71
+[01-Oct-2020 19:59:11 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:02:55 UTC] 8 Array to string conversion C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 102
+[01-Oct-2020 20:03:22 UTC] 8 Array to string conversion C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 102
+[01-Oct-2020 20:03:24 UTC] 8 Array to string conversion C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 102
+[01-Oct-2020 20:22:10 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:23:00 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:30:25 UTC] Payment gateway "PayLane" is not configured properly. Please update configuration parameter "PayLane Email address" at "Configuration -> Payments".
+[01-Oct-2020 20:32:33 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 206
+[01-Oct-2020 20:32:33 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 208
+[01-Oct-2020 20:32:34 UTC] 8 Undefined index: transaction_description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 210
+[01-Oct-2020 20:32:34 UTC] 8 Undefined index: name C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 217
+[01-Oct-2020 20:32:34 UTC] 8 Undefined index: address C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 223
+[01-Oct-2020 20:33:17 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 206
+[01-Oct-2020 20:33:17 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 208
+[01-Oct-2020 20:33:17 UTC] 8 Undefined index: transaction_description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 210
+[01-Oct-2020 20:33:17 UTC] 8 Undefined index: name C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 217
+[01-Oct-2020 20:33:17 UTC] 8 Undefined index: address C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 223
+[01-Oct-2020 20:33:35 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 206
+[01-Oct-2020 20:33:35 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 208
+[01-Oct-2020 20:33:35 UTC] 8 Undefined index: transaction_description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 210
+[01-Oct-2020 20:33:35 UTC] 8 Undefined index: name C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 217
+[01-Oct-2020 20:33:35 UTC] 8 Undefined index: address C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 223
+[01-Oct-2020 20:33:54 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 206
+[01-Oct-2020 20:33:54 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 208
+[01-Oct-2020 20:33:54 UTC] 8 Undefined index: transaction_description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 210
+[01-Oct-2020 20:33:54 UTC] 8 Undefined index: name C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 217
+[01-Oct-2020 20:33:54 UTC] 8 Undefined index: address C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 223
+[01-Oct-2020 20:40:17 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:40:47 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:40:47 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 147
+[01-Oct-2020 20:40:47 UTC] 8 Undefined index: description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 148
+[01-Oct-2020 20:40:48 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 149
+[01-Oct-2020 20:40:48 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 150
+[01-Oct-2020 20:40:48 UTC] 8 Undefined index: id_sale C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 151
+[01-Oct-2020 20:40:48 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 132
+[01-Oct-2020 20:41:34 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:41:34 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 147
+[01-Oct-2020 20:41:34 UTC] 8 Undefined index: description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 148
+[01-Oct-2020 20:41:34 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 149
+[01-Oct-2020 20:41:34 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 150
+[01-Oct-2020 20:41:34 UTC] 8 Undefined index: id_sale C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 151
+[01-Oct-2020 20:41:34 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 132
+[01-Oct-2020 20:41:44 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:41:44 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 147
+[01-Oct-2020 20:41:44 UTC] 8 Undefined index: description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 148
+[01-Oct-2020 20:41:44 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 149
+[01-Oct-2020 20:41:44 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 150
+[01-Oct-2020 20:41:45 UTC] 8 Undefined index: id_sale C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 151
+[01-Oct-2020 20:41:45 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 132
+[01-Oct-2020 20:42:09 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:42:09 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 147
+[01-Oct-2020 20:42:09 UTC] 8 Undefined index: description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 148
+[01-Oct-2020 20:42:09 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 149
+[01-Oct-2020 20:42:09 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 150
+[01-Oct-2020 20:42:09 UTC] 8 Undefined index: id_sale C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 151
+[01-Oct-2020 20:42:09 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 132
+[01-Oct-2020 20:42:09 UTC] 8 Undefined variable: url C:\xampp\htdocs\boxbilling\bb-ipn.php 62
+[01-Oct-2020 20:45:24 UTC] 
+[01-Oct-2020 20:46:52 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:49:29 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:50:43 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:50:49 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:50:49 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 147
+[01-Oct-2020 20:50:49 UTC] 8 Undefined index: description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 148
+[01-Oct-2020 20:50:49 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 149
+[01-Oct-2020 20:50:49 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 150
+[01-Oct-2020 20:50:49 UTC] 8 Undefined index: id_sale C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 151
+[01-Oct-2020 20:50:49 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 132
+[01-Oct-2020 20:51:47 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:51:56 UTC] 8 Undefined index: hash C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 130
+[01-Oct-2020 20:51:56 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 147
+[01-Oct-2020 20:51:56 UTC] 8 Undefined index: description C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 148
+[01-Oct-2020 20:51:56 UTC] 8 Undefined index: amount C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 149
+[01-Oct-2020 20:51:56 UTC] 8 Undefined index: currency C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 150
+[01-Oct-2020 20:51:56 UTC] 8 Undefined index: id_sale C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 151
+[01-Oct-2020 20:51:56 UTC] 8 Undefined index: status C:\xampp\htdocs\boxbilling\bb-library\Payment\Adapter\Paylane.php 132
+[01-Oct-2020 20:54:31 UTC] Password too short! 0
